@@ -46,12 +46,3 @@
 .carousel .active {
     opacity: 1 !important;
 }
-
-.carousel .left {
-    opacity: 1 !important;
-    -webkit-transition: opacity 0.5s  !important;
-    -moz-transition: opacity 0.5s  !important;
-    -ms-transition: opacity 0.5s  !important;
-    -o-transition: opacity 0.5s  !important;
-    transition: opacity 0.5s  !important;
-}
