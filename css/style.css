@@ -37,6 +37,16 @@ p {
     font-style: normal;
 }
 
+li {
+    font-family: a-otf-ryumin-pr6n, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
 .row {
     margin: 20px;
+}
+
+p.indent {
+    text-indent: 30px;
 }
