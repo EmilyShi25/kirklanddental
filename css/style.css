@@ -10,11 +10,23 @@
     object-fit: cover;
 }
 
+body {
+    background-color: white;
+    color: rgb(123, 149, 150)
+}
+
+a {
+    font-family: a-otf-ryumin-pr6n, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
 h1 {
     font-family: jeanne-moderno-ultra, serif;
     font-weight: 700;
     font-style: normal;
     text-align: center;
+    color: rgb(56, 106, 122)
 }
 
 h2 {
@@ -29,9 +41,22 @@ h3 {
     font-style: normal;
 }
 
-h6 {
+h4 {
     font-family: a-otf-ryumin-pr6n, serif;
     font-weight: 300;
+    font-style: normal;
+    color: rgb(56, 106, 122)
+}
+
+h5 {
+    font-family: a-otf-ryumin-pr6n, serif;
+    font-weight: 250;
+    font-style: normal;
+}
+
+h6 {
+    font-family: a-otf-ryumin-pr6n, serif;
+    font-weight: 200;
     font-style: normal;
 }
 
@@ -54,30 +79,10 @@ li {
     width: 50%;
 }
 
-.img {
-    border-radius: 50px;
-    border-color: rgb(15, 45, 55);
-    border: solid;
-}
-
 .tooltips p {
     display: none;
-    background: rgb(231, 231, 198);
-    padding: 10px;
 }
 
 .tooltips:hover p {
-    display: block;
-}
-
-.hover-div {
-    color: black;
-    background-color: lightblue;
-    padding: 10px;
-}
-
-.hover-div:hover {
-    color: white;
-    background-color: black;
     display: block;
 }
