@@ -53,3 +53,31 @@ li {
     margin-right: auto;
     width: 50%;
 }
+
+.img {
+    border-radius: 50px;
+    border-color: rgb(15, 45, 55);
+    border: solid;
+}
+
+.tooltips p {
+    display: none;
+    background: rgb(231, 231, 198);
+    padding: 10px;
+}
+
+.tooltips:hover p {
+    display: block;
+}
+
+.hover-div {
+    color: black;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.hover-div:hover {
+    color: white;
+    background-color: black;
+    display: block;
+}
