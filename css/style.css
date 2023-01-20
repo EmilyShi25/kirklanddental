@@ -63,3 +63,14 @@ li {
 .tooltips:hover p {
     display: block;
 }
+
+.hover-div {
+    color: black;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.hover-div:hover {
+    color: white;
+    background-color: black;
+}
