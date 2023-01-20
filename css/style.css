@@ -12,7 +12,57 @@ position: absolute;
     object-fit: cover;
 }
 
+h1 {
+    font-family: jeanne-moderno-ultra, serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+h2 {
+    font-family: jeanne-moderno-ultra, serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h3 {
+    font-family: a-otf-ryumin-pr6n, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+p {
+    font-family: a-otf-ryumin-pr6n, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+li {
+    font-family: a-otf-ryumin-pr6n, serif;
+    font-weight: 300;
+    font-style: normal;
+}
 
 .row {
     margin: 20px;
 }
+
+p.indent {
+    text-indent: 30px;
+}
+
+.carousel .four {
+    background: url(../images/slide4.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+}
+.carousel .five {
+    background: url(../images/slide5.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+.carousel .active {
+    opacity: 1 !important;
+}
+
