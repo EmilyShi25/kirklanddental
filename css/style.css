@@ -73,4 +73,5 @@ li {
 .hover-div:hover {
     color: white;
     background-color: black;
+    display: block;
 }
