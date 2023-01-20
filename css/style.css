@@ -1,10 +1,8 @@
-
 .navtitle {
-position: absolute;
+    position: absolute;
     top: 150px;
     left: 40px;
 }
-
 
 .navbar-image img {
     width: 100%;
@@ -44,25 +42,12 @@ li {
 }
 
 .row {
-    margin: 20px;
+    margin: 100px;
 }
 
-p.indent {
-    text-indent: 30px;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
-
-.carousel .four {
-    background: url(../images/slide4.jpg) no-repeat center center fixed;
-    background-size: cover;
-    -moz-background-size: cover;
-}
-.carousel .five {
-    background: url(../images/slide5.jpg) no-repeat center center fixed;
-    background-size: cover;
-    -moz-background-size: cover;
-}
-
-.carousel .active {
-    opacity: 1 !important;
-}
-
