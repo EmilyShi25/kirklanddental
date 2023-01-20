@@ -85,21 +85,31 @@ ct {
     margin-top: -76px;
 }
 
-tn{
-    background-color: transparent; 
-    z-index: 1000; 
+tn {
+    background-color: transparent;
+    z-index: 1000;
 }
 
 navslide1 {
-    background: url('../images/Implant_Dentistry_AMP_v2.jpg') no-repeat center center fixed; height: 100vh; background-size: cover;
+    background: url('../images/Implant_Dentistry_AMP_v2.jpg') no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
 }
 
 navslide2 {
-    background: url('../images/panel1.jpg') no-repeat center center fixed; height: 100vh; background-size: cover;
+    background: url('../images/panel1.jpg') no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
 }
+
 navslide3 {
-    background: url('../images/slide4.jpg') no-repeat center center fixed; height: 100vh; background-size: cover;
+    background: url('../images/slide4.jpg') no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
 }
+
 navslide4 {
-    background: url('../images/Slide6.png') no-repeat center center fixed; height: 100vh; background-size: cover;
+    background: url('../images/Slide6.png') no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
 }
