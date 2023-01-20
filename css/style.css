@@ -1,7 +1,7 @@
 .navtitle {
     position: absolute;
     top: 150px;
-    left: 40px;
+    left: 50px;
 }
 
 .navbar-image img {
@@ -21,13 +21,7 @@ a {
     font-style: normal;
 }
 
-h1 {
-    font-family: jeanne-moderno-ultra, serif;
-    font-weight: 700;
-    font-style: normal;
-    text-align: center;
-    color: rgb(56, 106, 122)
-}
+
 
 h2 {
     font-family: jeanne-moderno-ultra, serif;
@@ -88,7 +82,7 @@ li {
 }
 
 ct {
-    margin-top: -60px;
+    margin-top: -76px;
 }
 
 tn{
