@@ -10,6 +10,17 @@
     object-fit: cover;
 }
 
+body {
+    background-color: rgb(15, 45, 55);
+    color: rgb(123, 149, 150)
+}
+
+a {
+    font-family: a-otf-ryumin-pr6n, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
 h1 {
     font-family: jeanne-moderno-ultra, serif;
     font-weight: 700;
@@ -29,9 +40,15 @@ h3 {
     font-style: normal;
 }
 
+h5 {
+    font-family: a-otf-ryumin-pr6n, serif;
+    font-weight: 250;
+    font-style: normal;
+}
+
 h6 {
     font-family: a-otf-ryumin-pr6n, serif;
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
 }
 
@@ -54,30 +71,10 @@ li {
     width: 50%;
 }
 
-.img {
-    border-radius: 50px;
-    border-color: rgb(15, 45, 55);
-    border: solid;
-}
-
 .tooltips p {
     display: none;
-    background: rgb(231, 231, 198);
-    padding: 10px;
 }
 
 .tooltips:hover p {
-    display: block;
-}
-
-.hover-div {
-    color: black;
-    background-color: lightblue;
-    padding: 10px;
-}
-
-.hover-div:hover {
-    color: white;
-    background-color: black;
     display: block;
 }
