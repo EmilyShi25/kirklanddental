@@ -38,5 +38,12 @@ p {
 }
 
 .row {
-    margin: 20px;
+    margin: 100px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
