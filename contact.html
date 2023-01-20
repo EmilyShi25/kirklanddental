@@ -12,10 +12,6 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="script.js"></script>
     <style>
-        .row {
-            margin: 20px;
-        }
-        
         p {
             text-align: center;
         }
@@ -32,6 +28,7 @@
             width: 50%;
             width: 75px;
             height: 75px;
+            border-color: rgb(215, 209, 201);
         }
     </style>
 </head>
@@ -49,7 +46,9 @@
             <div class="tooltips">
                 <img src="images/houseicon.jpg" alt="icon of a house" class="img">
                 <h3>Address:</h3>
-                <p>11800 NE 128th St #520 Kirkland, WA 98034</p>
+                <p>11800 NE 128th St #520 Kirkland,
+                    <br> bWA 98034
+                </p>
             </div>
         </div>
         <div class="col-md-3">
@@ -71,10 +70,10 @@
                 <img src="images/Clock icon.jpg" alt="icon of a clock" class="img">
                 <h3>Office Hours: </h3>
                 <p>
-                    Monday: 9:00am to 5:00pm
-                    <br> Tuesday: 9:00am to 5:00pm
-                    <br> Wednesday: 9:00am to 5:00pm
-                    <br> Thursday: 9:00am to 5:00pm F
+                    Monday: 9:00am-5:00pm
+                    <br> Tuesday: 9:00am-5:00pm
+                    <br> Wednesday: 9:00am-5:00pm
+                    <br> Thursday: 9:00am-5:00pm
                     <br> Friday: 8:00am to 1:00pm
                 </p>
             </div>
@@ -83,6 +82,8 @@
             <br>
             <br>
         </div>
+
+        <!-- This code was taken and edited from the home page/code that stan wrote -->
         <div class="row container">
             <div class="col-3 text-center border-end">
                 <h2>Appointment Request</h2>
@@ -119,13 +120,10 @@
                 </div>
                 <div class="row">
                     <div class="mb-3">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="describe appointment purpose"></textarea></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="describe appointment purpose"></textarea>
                     </div>
                 </div>
             </div>
-
-
-
 
 
 
@@ -137,6 +135,8 @@
             <script type="text/javascript" src="js/script.js"></script>
         </div>
     </div>
+    <div w3-include-html="footer2.html"></div>
+
 </body>
 
 </html>
