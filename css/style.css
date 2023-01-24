@@ -81,6 +81,10 @@ li {
     display: block;
 }
 
+.indent {
+    text-indent: 30px;
+}
+
 ct {
     margin-top: -76px;
 }
